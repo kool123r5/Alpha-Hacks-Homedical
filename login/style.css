@@ -1,1 +1,47 @@
+body{
+   background-color: #1e1e1e;
+}
 
+.signInAuths{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 500px;
+    position: relative;
+    right: -535px;
+    top: 100px;
+    border-radius: 10px;
+}
+
+#signInBtn{
+    border-radius: 10px;
+    width: 400px;
+    height: 100px;
+    background-color: #18191c;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+    position: relative;
+    right: -10px;
+    margin-bottom: 5px;
+}
+
+#signInBtn:hover{
+    background-color: #DB4437;
+    cursor: pointer;
+    color: #1e1e1e;
+}
+
+#googleIcon{
+    padding: 15px;
+    position: relative;
+    font-size: 50px;
+}
+
+.welcomeSign{
+    text-align: center;
+    color: #c6d8f5;
+    font-size: 50px;
+}
