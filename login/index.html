@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login!</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
 
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyAtvH12ATHn5hNnx19FqbXTG7u15XLId4w",
+        authDomain: "alpha-hacks-hackathon-2021.firebaseapp.com",
+        projectId: "alpha-hacks-hackathon-2021",
+        storageBucket: "alpha-hacks-hackathon-2021.appspot.com",
+        messagingSenderId: "446935982757",
+        appId: "1:446935982757:web:b9ed40f5b4775e4c37e34c"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+        <link
+        href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+        crossorigin="anonymous"
+      />
+          <script src="app.js"></script>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="signInAuths">
+
+        <section id="whenSignedOut">
+    
+            <h1 class="welcomeSign">Welcome!</h1>
+    
+            <button id="signInBtn"><i id="googleIcon" class="fab fa-google"></i>Google Sign-in</button>
+    
+            <div id="errors"></div>
+    
+    
+        </section>
+    </div>
+</body>
+</html>
