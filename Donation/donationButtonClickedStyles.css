@@ -1,74 +1,98 @@
-        .cancerDonation{
-            background-color: #e4f2f5;
+  #name{
+            height: 25px;
+            width: 225px;
             position: relative;
-            top: 25px;
+            top: 150px;
+            right: -675px;
         }
 
-        #cancerh1{
+        #email{
+            height: 25px;
+            width: 225px;
             position: relative;
-            top: -75px;
+            top: 250px;
+            right: -435px;
+        }
+
+        #amount{
+            height: 25px;
+            width: 225px;
+            position: relative;
+            top: 350px;
+            right: -200px;
+        }
+
+        #randomNumberInput{
+            height: 25px;
+            width: 225px;
+            position: relative;
+            top: 550px;
+            right: 250px;
+        }
+
+        #goBack{
+            position: relative;
+            text-decoration: none;
+            right: -700px;
+            top: 550px;
+        }
+
+        #submit{
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            transition-duration: 0.4s;
+            display: inline-block;
+            background-color: #18191c;
+            border-radius: 40px;
+            border: 4px double #cccccc;
+            color: #eeeeee;
             text-align: center;
-            letter-spacing: 2.3px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 40px;
-            color: #9b1df0;
-        }
-        
-        #cancerP{
+            font-size: 28px;
+            padding: 20px;
+            width: 200px;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
             position: relative;
-            top: -50px;
-            right: -225px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 20px;
+            top: 450px;
+            right: 25px;
         }
 
-        #imageCancerDonate{
+        #checkEmail{
             position: relative;
-            top: 60px;
+            top: 450px;
+            right: -730px;
         }
 
-        #cancerDonateButton{
-            position: relative;
-            right: -750px;
-            top: -40px;
-        }
+        .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
 
-        .covidDonation{
-            background-color: #e4f2f5;
-            position: relative;
-            top: 80px;
-        }
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
 
-        #covidh1{
-            position: relative;
-            top: -75px;
-            text-align: center;
-            letter-spacing: 2.3px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 40px;
-            color: #9b1df0;
-        }
-        
-        #covidP{
-            position: relative;
-            top: -50px;
-            right: -225px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 20px;
-        }
+  .bg3 {
+    animation-duration:5s;
+  }
 
-        #imageCovidDonate{
-            position: relative;
-            top: 60px;
-        }
 
-        #covidDonateButton{
-            position: relative;
-            right: -750px;
-            top: -40px;
-        }
-
-        #customList{
-            position: relative;
-            top: 100px;
-        }
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
