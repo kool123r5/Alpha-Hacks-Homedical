@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
 
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyAtvH12ATHn5hNnx19FqbXTG7u15XLId4w",
+        authDomain: "alpha-hacks-hackathon-2021.firebaseapp.com",
+        projectId: "alpha-hacks-hackathon-2021",
+        storageBucket: "alpha-hacks-hackathon-2021.appspot.com",
+        messagingSenderId: "446935982757",
+        appId: "1:446935982757:web:b9ed40f5b4775e4c37e34c"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="style.css">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <div class="cancerDonation">
+        <img id="imageCancerDonate" src="https://media.discordapp.net/attachments/702368082303385600/853054249160015882/1200px-Cancer_Research_UK.png" alt="" width="175" height="75">
+        <h1 id="cancerh1">Donate to help Cancer</h1>
+        <p id="cancerP">This is a charity that helps people who have any kinds of cancer, as cancer is one of the worst diseases that the world has ever encountered.</p>
+        <button type="button" id="cancerDonateButton" class="btn btn-dark">Donate</button>
+    </div>
+    <div class="covidDonation">
+        <img id="imageCovidDonate" src="https://media.discordapp.net/attachments/702368082303385600/853107002351288360/AAAAABJRU5ErkJggg.png" alt="" width="175" height="75">
+        <h1 id="covidh1">Donate to help Covid</h1>
+        <p id="covidP">This is a charity that helps people who have are affected by COVID-19, the pandemic that is causing our lives to be changed, forever.</p>
+        <button type="button" id="covidDonateButton" class="btn btn-dark">Donate</button>
+    </div>
+    <h4>List of Donators!</h4>
+    <ul id="customList"></ul>
+</body>
+</html>
