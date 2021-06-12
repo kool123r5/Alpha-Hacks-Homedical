@@ -1,2 +1,2 @@
 # Alpha-Hacks-Homedical
-Our project for the Alpha Hacks Hackathon!
+This is our project for the Alpha Hacks Hackathon!
