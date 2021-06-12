@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Donation</title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
 
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyAtvH12ATHn5hNnx19FqbXTG7u15XLId4w",
+        authDomain: "alpha-hacks-hackathon-2021.firebaseapp.com",
+        projectId: "alpha-hacks-hackathon-2021",
+        storageBucket: "alpha-hacks-hackathon-2021.appspot.com",
+        messagingSenderId: "446935982757",
+        appId: "1:446935982757:web:b9ed40f5b4775e4c37e34c"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+      <script src="donationButtonClickedscript.js"></script>
+    <link rel="stylesheet" href="donationButtonClickedStyles.css">
+</head>
+<body>
+    <form id="donationForm">
+
+        <input id="name" type="text" name="name" placeholder="Enter your name: ">
+
+        <input id="email" type="email" name="email" placeholder="Enter your email: ">
+
+        <input id="amount" type="number" name="amount" placeholder="Enter amount you wish to donate: ">
+
+        <input id="submit" type="submit" name="submit" value="Submit">
+
+        <input type="number" id="randomNumberInput" placeholder="Enter random number here!">
+        <p id="checkEmail">Check your email!</p>
+    </form>
+
+    <a id="goBack" href="donations.html">Go back to the donations page!</a>
+
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+  </body>
+</html>
