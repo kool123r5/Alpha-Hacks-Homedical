@@ -1,1 +1,74 @@
+        .cancerDonation{
+            background-color: #e4f2f5;
+            position: relative;
+            top: 25px;
+        }
 
+        #cancerh1{
+            position: relative;
+            top: -75px;
+            text-align: center;
+            letter-spacing: 2.3px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 40px;
+            color: #9b1df0;
+        }
+        
+        #cancerP{
+            position: relative;
+            top: -50px;
+            right: -225px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        #imageCancerDonate{
+            position: relative;
+            top: 60px;
+        }
+
+        #cancerDonateButton{
+            position: relative;
+            right: -750px;
+            top: -40px;
+        }
+
+        .covidDonation{
+            background-color: #e4f2f5;
+            position: relative;
+            top: 80px;
+        }
+
+        #covidh1{
+            position: relative;
+            top: -75px;
+            text-align: center;
+            letter-spacing: 2.3px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 40px;
+            color: #9b1df0;
+        }
+        
+        #covidP{
+            position: relative;
+            top: -50px;
+            right: -225px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        #imageCovidDonate{
+            position: relative;
+            top: 60px;
+        }
+
+        #covidDonateButton{
+            position: relative;
+            right: -750px;
+            top: -40px;
+        }
+
+        #customList{
+            position: relative;
+            top: 100px;
+        }
