@@ -724,5 +724,9 @@ h2 {
 
 }
 
-
+#logOutButton{
+    position: absolute;
+    top: 15px;
+    left: 1500px;
+}
 
