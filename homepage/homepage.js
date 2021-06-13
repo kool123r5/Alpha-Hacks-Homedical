@@ -1,3 +1,4 @@
+const profilePic = document.getElementById('profilePic');
 let bg = document.getElementById("bg");
 const auth = firebase.auth();
 let moon = document.getElementById("moon");
@@ -21,6 +22,7 @@ var init = function(){
         if (user) {
           console.log(firebase.auth().currentUser);
           logOutButton.onclick = () => auth.signOut();
+          profilePic.src = `${user.photoURL}`
         } else {
           window.location.replace("index.html");
         }
