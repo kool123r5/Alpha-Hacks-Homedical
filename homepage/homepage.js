@@ -16,4 +16,15 @@ window.addEventListener('scroll', function(){
   mountain.style.top  = -value * 1 + 'px';
 })
 
-logOutButton.onclick = () => auth.signOut();
+var init = function(){
+    firebase.auth().onAuthStateChanged(function(user) {
+        if (user) {
+          console.log(firebase.auth().currentUser);
+          logOutButton.onclick = () => auth.signOut();
+        } else {
+          window.location.replace("index.html");
+        }
+      });
+}
+
+init();
