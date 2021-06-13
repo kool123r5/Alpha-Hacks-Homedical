@@ -8,3 +8,9 @@
             background-color: #1e1e1e;
             color: white;
         }
+
+        #deleteButton{
+            position: relative;
+            top: 200px;
+            right: 325px;
+        }
