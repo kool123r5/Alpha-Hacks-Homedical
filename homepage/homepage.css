@@ -69,7 +69,7 @@ html {
   .nav_links {
       list-style: none;
     position: relative;
-    right: -100px;
+    right: 100px;
   }
 
   nav {
