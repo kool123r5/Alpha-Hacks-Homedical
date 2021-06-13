@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Symptom Checker</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename = 'main.css')}}">
+</head>
+<body>
+	<form method = "POST">
+		<input type="text" name="symptom" placeholder="Enter a symptom" class = "input">
+		<input type="submit" value = "🔍" class = "btn">
+	</form>
 
+
+	<h1 class = "disease"><u>{{disease}}</u></h1>
+	<div class = "des">
+	<p>{{description1}}</p>
+	</div>
+	<br>
+	<br>
+	{% if(request.method == "POST") %}
+	<h2 class = "nearU">Doctors near you:</h2>
+	{% endif %}
+	<iframe src='{{map1}}' width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	
+	<br>
+	<br>
+	{% if(request.method == "POST") %}
+	<div class = "card">
+	<h1 class = "name"><u>{{doctor}}</u></h1>
+	<br>
+	<p class = "job">{{job}}</p>
+	<br>
+	<p class = "cost">{{cost}}</p>
+	<br>
+	<p class = "number">{{number}}</p>
+	<br>
+	<image src={{image}} class = "img" width = 300px height = 200px>
+	<br>
+	</div>
+	{% endif %}
+	{% if(request.method == "POST") %}
+	<button class = "btn1" id ="one"><a target = "_blank" href="https://homedical-appoiintment.netlify.app/ " >Schedule</a></button>
+	<button class = "btn1" id ="two"><a target = "_blank" href="https://homedical-chat.netlify.app/">Chat</a></button>
+	<button class = "btn1" id ="three"><a target = "_blank" href="https://homedical-video-consultation.netlify.app/">Video Consultation</a></button>
+	{% endif %}
+
+</body>
+</html>
