@@ -1,0 +1,196 @@
+*{
+	font-family: tahoma;
+}
+
+
+body{
+	background: rgb(252,252,186);
+	background: linear-gradient(90deg, rgba(252,252,186,1) 0%, rgba(24,231,244,1) 0%, rgba(231,105,241,1) 100%, rgba(191,255,240,1) 100%);
+}
+
+
+
+.input{
+	position: absolute;
+	left: 27%;
+	top: 3%;
+	width: 500px;
+	height: 70px;
+	background-color: cyan;
+	color: black;
+	font-size: 20px;
+}
+
+.btn{
+	position: absolute;
+	top: 2%;
+	left: 56%;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    display: inline-block;
+        background-color: cyan;
+        border-radius: 40px;
+        border: 4px double #cccccc;
+        color: black;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+}
+
+
+
+iframe{
+	position: absolute;
+	top: 50%;
+}
+
+
+
+
+.btn:hover{
+	background-color: #d729e3;
+}
+
+p{
+	position: absolute;
+	top: 27%;
+	max-width: 50%;
+	font-size: 20px;
+	font-family: tahoma;
+}
+
+.job{
+	position: absolute;
+	left: 25%;
+	top: 45%;
+	font-size: 20px;
+}
+
+.cost{
+	position: absolute;
+	left: 23%;
+	top: 53%;	
+	max-width: 500px;
+	font-size: 20px;
+}
+
+.img{
+	position: absolute;
+	left: 22%;
+	top: 15%;
+}
+
+
+.l1{
+
+}
+
+.l2{
+	position: absolute;
+	left: 73%;
+	top: 78%;
+	font-size: 20px;
+}
+
+.l3{
+	position: absolute;
+	left: 70%;
+	top: 84%;
+	font-size: 20px;
+}
+
+.name{
+	font-size: 40px;
+	position: absolute;
+	left: 10%;
+	top: -3%;
+	max-width: 5000px;
+
+}
+
+
+.disease{
+	font-size: 50px;
+	position: absolute;
+	top: 15%;
+}
+
+.nearU{
+	font-size: 35px;
+	position: absolute;
+	top: 40%;
+}
+
+
+.card{
+	background-color: #6583cf;
+	color: black;
+	height: 700px;
+	width : 500px;
+	position: absolute;
+	left: 60%;
+	top: 20%;
+}
+
+
+.number{
+	position: absolute;
+	top: 60%;
+	left: 25%;
+	max-width : 5000px;
+}
+
+
+.btn1{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    display: inline-block;
+        background-color: cyan;
+        border-radius: 40px;
+        border: 4px double #cccccc;
+        color: black;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+}
+
+.btn1 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#one{
+	position: absolute;
+	left: 62%;
+	top: 70%;
+	font-size: 20px;
+}
+
+#two{
+	position: absolute;
+	left: 73.5%;
+	top: 70%;
+	font-size: 20px;
+}
+
+#three{
+	position: absolute;
+	left: 68%;
+	top: 80%;
+	font-size: 20px;
+}
